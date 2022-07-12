@@ -1,4 +1,4 @@
-/* Ceci est mon premier projet en C soyez donc indulgent :) */
+/* This is my first project in C so please bear with me :) */
  
 
 
@@ -6,24 +6,24 @@
 
 int main()
 { 
-  /* Initialise les valeurs à rentrer*/ 
+  /* Initialize the values to enter */ 
   int num1 = 0 ;
   int num2 = 0 ;
   int rslt;
   
   
-  /* On demande a l'user sa requête*/
-  printf("Quel calcul voulez-vous effectuer avec \n");
-  printf("Le SUPER ADDITIONNEUR !  \n");
+  /* We ask the user his request */
+  printf("What calculation do you want to perform with \n");
+  printf("the SUPER ADDER !  \n");
  
 
-  /* On récupère les entrées de l'user*/
+  /* We get the entries of the user */
   scanf("%d", &num1);
   scanf("%d", &num2);
-  /* On additionne les 2 entrées */
+  /* We add the 2 entries */
   rslt = num1 + num2; 
 
-  printf("Le resultat est %d", rslt);
+  printf("The result is %d", rslt);
 
   return 0;
 
